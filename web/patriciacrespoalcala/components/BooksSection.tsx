@@ -1,20 +1,6 @@
+import Link from "next/link"
+
 const books = [
-  {
-    title: "Erosgrafías",
-    year: "2018",
-    publisher: "Bohodón Ediciones",
-    cover: "https://www.bohodonediciones.info/portadas/erosgrafias.jpg",
-    phrase: "Eros se dibuja a través de las palabras en estas prosas poéticas.",
-    link: "https://www.bohodon.es/",
-  },
-  {
-    title: "Cantos de la desesperanza",
-    year: "2020",
-    publisher: "Bohodón Ediciones",
-    cover: "https://www.bohodonediciones.info/portadas/cantos-de-la-desesperanza.jpg",
-    phrase: "Un individuo cualquiera se halla caminando dirección a ningún lado.",
-    link: "https://www.bohodon.es/",
-  },
   {
     title: "Manifiesto de Incertidumbre",
     year: "2022",
@@ -72,6 +58,17 @@ export default function BooksSection() {
           </a>
         )
       })}
+      <div className="text-center">
+        <Link
+          href="/obras"
+          className="inline-flex items-center gap-2 px-6 py-3 border border-primary/30 text-primary rounded-lg hover:bg-primary/5 transition-colors duration-200 font-body text-sm"
+        >
+          Ver todas las obras
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </Link>
+      </div>
     </section>
   )
 }

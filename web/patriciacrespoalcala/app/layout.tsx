@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     title: "Patricia Crespo Alcalá",
     description: "De poéticas — Poesía, literatura y crítica literaria.",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,
