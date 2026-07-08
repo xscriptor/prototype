@@ -51,9 +51,9 @@ export default function FeaturedPost({ post }: FeaturedPostProps) {
 
               {/* Tags */}
               {post.tags.length > 0 && (
-                <div className="flex flex-wrap gap-1.5 mt-5">
+                <div className="mt-4 space-y-0.5">
                   {post.tags.slice(0, 4).map((tag) => (
-                    <TagBadge key={tag} tag={tag} isCompact />
+                    <TagBadge key={tag} tag={tag} />
                   ))}
                 </div>
               )}

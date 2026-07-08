@@ -49,15 +49,10 @@ export default function PostCard({ post, index = 0 }: PostCardProps) {
 
           {/* Tags */}
           {post.tags.length > 0 && (
-            <div className="flex flex-wrap gap-1.5 mt-4">
+            <div className="mt-3 space-y-0.5">
               {post.tags.slice(0, 3).map((tag) => (
-                <TagBadge key={tag} tag={tag} isCompact />
+                <TagBadge key={tag} tag={tag} />
               ))}
-              {post.tags.length > 3 && (
-                <span className="text-xs text-text-muted/50 self-center">
-                  +{post.tags.length - 3}
-                </span>
-              )}
             </div>
           )}
         </div>

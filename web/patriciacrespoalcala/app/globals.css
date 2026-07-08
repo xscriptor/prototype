@@ -50,7 +50,20 @@
   }
 
   .post-content img {
-    @apply max-w-full h-auto rounded-lg my-8 mx-auto shadow-md;
+    @apply max-w-full h-auto rounded-lg my-8 mx-auto shadow-md block;
+  }
+
+  .post-content figure {
+    @apply my-8 mx-auto text-center;
+  }
+
+  .post-content figure img {
+    @apply my-0;
+  }
+
+  .post-content figcaption,
+  .post-content .tr-caption {
+    @apply text-center text-sm text-text-muted mt-3 font-body italic;
   }
 
   .post-content .separator {
@@ -90,8 +103,24 @@
     @apply text-center;
   }
 
+  .post-content table.tr-caption-container {
+    @apply my-8 mx-auto max-w-full;
+  }
+
+  .post-content table.tr-caption-container td {
+    @apply p-0;
+  }
+
+  .post-content table.tr-caption-container img {
+    @apply my-0 rounded-lg shadow-md;
+  }
+
   .post-content a[imageanchor] {
-    @apply inline-block;
+    @apply block no-underline;
+  }
+
+  .post-content a[imageanchor]:not([style*="float"]) {
+    @apply text-center;
   }
 
   .post-content div.separator + div.separator {

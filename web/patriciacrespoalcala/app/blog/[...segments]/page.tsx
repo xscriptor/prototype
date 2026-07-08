@@ -51,6 +51,19 @@ export default function PostPage({ params }: PageProps) {
     notFound()
   }
 
+  // Strip featured image from body to avoid duplicate rendering
+  let body = post.body
+  if (post.featuredImage) {
+    const escapedUrl = post.featuredImage.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    body = body.replace(
+      new RegExp(
+        `<a[^>]*imageanchor[^>]*>\\s*<img[^>]*src=["']${escapedUrl}["'][^>]*>\\s*</a>\\s*`,
+        "i"
+      ),
+      ""
+    )
+  }
+
   return (
     <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
       {/* Back link */}
@@ -91,7 +104,7 @@ export default function PostPage({ params }: PageProps) {
 
         {/* Tags */}
         {post.tags.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-4">
+          <div className="mt-4 space-y-0.5">
             {post.tags.map((tag) => (
               <TagBadge key={tag} tag={tag} />
             ))}
@@ -112,10 +125,11 @@ export default function PostPage({ params }: PageProps) {
 
       {/* Body Content */}
       <div className="bg-white rounded-lg p-6 sm:p-8 md:p-10 shadow-sm border border-wood-light/10">
-        <PostContent body={post.body} />
+        <PostContent body={body} />
       </div>
 
-      {/* Decorative divider */}
+      {/* Clear float and decorative divider */}
+      <div className="clear-both" />
       <div className="decorative-divider my-12" />
 
       {/* Navigation */}

@@ -116,7 +116,7 @@ export default function ContactoPage() {
         })}
 
         <a
-          href="mailto:pat.crespo@example.com"
+          href="mailto:placeholder@patriciacrespoalcala.com"
           className="group flex items-center gap-4 bg-background-light rounded-lg p-5 border border-primary/10 hover:border-accent/30 hover:bg-accent/5 transition-all duration-200 sm:col-span-2"
         >
           <div className="text-text-muted group-hover:text-accent transition-colors duration-200 shrink-0">
@@ -126,7 +126,7 @@ export default function ContactoPage() {
             <p className="font-display text-base text-primary group-hover:text-accent transition-colors">
               Correo electrónico
             </p>
-            <p className="font-body text-sm text-text-muted">pat.crespo@example.com</p>
+            <p className="font-body text-sm text-text-muted">placeholder@patriciacrespoalcala.com</p>
           </div>
         </a>
       </div>

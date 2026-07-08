@@ -41,7 +41,7 @@ export default function PostContent({ body }: PostContentProps) {
             ...attribs,
             src,
             loading: "lazy",
-            class: "rounded-lg shadow-md my-8 mx-auto max-w-full h-auto",
+            class: "rounded-lg shadow-md my-8 mx-auto max-w-full h-auto block",
           },
         }
       },
