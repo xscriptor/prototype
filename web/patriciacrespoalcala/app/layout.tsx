@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import PageTransition from "@/components/PageTransition"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -41,7 +42,9 @@ export default function RootLayout({
     <html lang="es">
       <body className="min-h-screen flex flex-col">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
       </body>
     </html>
