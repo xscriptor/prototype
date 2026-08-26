@@ -17,14 +17,14 @@ curl -fsSL https://raw.githubusercontent.com/xscriptor/xfetch/main/install.sh | 
 bash <(curl -fsSL ...) --prefix /usr/local
 
 # From local clone
-git clone https://github.com/xscriptor/xfetch.git
+git clone https://github.com/xscriptor-web/xfetch.git
 cd xfetch && bash install.sh --local`,
 
   windows: `# PowerShell one-liner
 irm https://raw.githubusercontent.com/xscriptor/xfetch/main/install.ps1 | iex`,
 
   source: `# Clone & build manually
-git clone https://github.com/xscriptor/xfetch.git
+git clone https://github.com/xscriptor-web/xfetch.git
 cd xfetch
 cargo build --release
 
@@ -36,7 +36,7 @@ mkdir -p ~/.config/xfetch
 cp configs/config.jsonc ~/.config/xfetch/config.jsonc`,
 
   arch: `# Using the PKGBUILD in the repo
-git clone https://github.com/xscriptor/xfetch.git
+git clone https://github.com/xscriptor-web/xfetch.git
 cd xfetch
 makepkg -si
 

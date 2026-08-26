@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Landing page para el repositorio [xscriptor/xfetch](https://github.com/xscriptor/xfetch). xfetch es una herramienta de obtención de información del sistema multiplataforma escrita en Rust, inspirada en fastfetch y neofetch. La landing presenta el proyecto con un diseño oscuro tipo terminal, demostraciones interactivas y documentación técnica completa.
+Landing page para el repositorio [xscriptor/xfetch](https://github.com/xscriptor-web/xfetch). xfetch es una herramienta de obtención de información del sistema multiplataforma escrita en Rust, inspirada en fastfetch y neofetch. La landing presenta el proyecto con un diseño oscuro tipo terminal, demostraciones interactivas y documentación técnica completa.
 
 ## Estructura del proyecto
 

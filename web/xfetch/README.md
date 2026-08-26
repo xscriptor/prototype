@@ -1,6 +1,6 @@
 # Xfetch — Landing Page
 
-Landing page for the [xscriptor/xfetch](https://github.com/xscriptor/xfetch) repository. Cross-platform system information fetching tool written in Rust, inspired by fastfetch and neofetch. Dark terminal-inspired design with interactive terminal demo and config builder.
+Landing page for the [xscriptor/xfetch](https://github.com/xscriptor-web/xfetch) repository. Cross-platform system information fetching tool written in Rust, inspired by fastfetch and neofetch. Dark terminal-inspired design with interactive terminal demo and config builder.
 
 ## Propósito
 

@@ -6,11 +6,11 @@ export default function Footer() {
       </p>
       <div className="mt-5 flex flex-wrap justify-center gap-5 text-sm">
         {[
-          { href: "https://github.com/xscriptor/xfetch", label: "GitHub" },
-          { href: "https://dev.xscriptor.com", label: "Dev" },
+          { href: "https://github.com/xscriptor-web/xfetch", label: "GitHub" },
+          { href: "https://xscriptor.io", label: "Dev" },
           { href: "https://www.xscriptor.com", label: "Xscriptor" },
-          { href: "https://github.com/xscriptor/xfetch/blob/main/LICENSE", label: "MIT License" },
-          { href: "https://github.com/xscriptor/xfetch/blob/main/CONTRIBUTING.md", label: "Contributing" },
+          { href: "https://github.com/xscriptor-web/xfetch/blob/main/LICENSE", label: "MIT License" },
+          { href: "https://github.com/xscriptor-web/xfetch/blob/main/CONTRIBUTING.md", label: "Contributing" },
         ].map((link) => (
           <a
             key={link.label}

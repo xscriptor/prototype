@@ -2,7 +2,7 @@
 
 ## Overview
 
-Landing page for the [xscriptor/terminal](https://github.com/xscriptor/terminal) repository. Showcases 12 color palettes configured for 27 terminal emulators and 4 prompt engines, with a dark-first design and animated SVG background paths.
+Landing page for the [xscriptor/terminal](https://github.com/xscriptor-web/terminal) repository. Showcases 12 color palettes configured for 27 terminal emulators and 4 prompt engines, with a dark-first design and animated SVG background paths.
 
 ## Project Structure
 

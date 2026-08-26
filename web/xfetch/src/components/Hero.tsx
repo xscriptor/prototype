@@ -72,7 +72,7 @@ export default function Hero() {
           See it live
         </a>
         <a
-          href="https://github.com/xscriptor/xfetch"
+          href="https://github.com/xscriptor-web/xfetch"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-lg border border-[#22263a] bg-[#181b24] px-7 py-3 text-sm font-semibold text-[#e1e4ed] transition-all hover:-translate-y-0.5 hover:bg-[#22263a]"

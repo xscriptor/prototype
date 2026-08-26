@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Landing page para el repositorio [xscriptor/terminal](https://github.com/xscriptor/terminal). Muestra 12 paletas de color configuradas para 27 emuladores de terminal y 4 motores de prompt, con un diseño dark-first y fondos animados con paths SVG.
+Landing page para el repositorio [xscriptor/terminal](https://github.com/xscriptor-web/terminal). Muestra 12 paletas de color configuradas para 27 emuladores de terminal y 4 motores de prompt, con un diseño dark-first y fondos animados con paths SVG.
 
 ## Estructura del proyecto
 

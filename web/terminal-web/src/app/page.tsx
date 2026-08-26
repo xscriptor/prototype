@@ -279,7 +279,7 @@ export default function Page() {
                     <ArrowRight size={16} />
                   </a>
                   <a
-                    href="https://github.com/xscriptor/terminal"
+                    href="https://github.com/xscriptor-web/terminal"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium border transition-all duration-200"
@@ -434,7 +434,7 @@ export default function Page() {
                     {group.items.map(t => (
                       <a
                         key={t.name}
-                        href={`https://github.com/xscriptor/terminal/tree/main/emulators/${t.dir}`}
+                        href={`https://github.com/xscriptor-web/terminal/tree/main/emulators/${t.dir}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm border transition-all duration-200 hover:-translate-y-0.5 no-underline"
@@ -529,7 +529,7 @@ export default function Page() {
                 </div>
                 <p className="text-xs mt-4 text-center" style={{ color: "var(--fg-muted)" }}>
                   Or use the{" "}
-                  <a href="https://github.com/xscriptor/terminal/tree/main/emulators" className="underline" style={{ color: "var(--cyan)" }}>per-terminal install scripts</a>
+                  <a href="https://github.com/xscriptor-web/terminal/tree/main/emulators" className="underline" style={{ color: "var(--cyan)" }}>per-terminal install scripts</a>
                   {" "}for manual setup.
                 </p>
               </div>
@@ -548,11 +548,11 @@ export default function Page() {
               Tokio palette
             </div>
             <div className="flex items-center gap-5">
-              <a href="https://github.com/xscriptor/terminal" target="_blank" rel="noopener noreferrer" style={{ color: "var(--fg-muted)" }} className="hover:opacity-80 transition-opacity">
+              <a href="https://github.com/xscriptor-web/terminal" target="_blank" rel="noopener noreferrer" style={{ color: "var(--fg-muted)" }} className="hover:opacity-80 transition-opacity">
                 <GithubLogo size={18} />
               </a>
-              <a href="https://dev.xscriptor.com" target="_blank" rel="noopener noreferrer" style={{ color: "var(--fg-muted)" }} className="hover:opacity-80 transition-opacity text-xs no-underline">
-                dev.xscriptor.com
+              <a href="https://xscriptor.io" target="_blank" rel="noopener noreferrer" style={{ color: "var(--fg-muted)" }} className="hover:opacity-80 transition-opacity text-xs no-underline">
+                xscriptor.io
               </a>
               <a href="https://xscriptor.com" target="_blank" rel="noopener noreferrer" style={{ color: "var(--fg-muted)" }} className="hover:opacity-80 transition-opacity text-xs no-underline">
                 xscriptor.com
